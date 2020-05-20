@@ -28,4 +28,6 @@ def get_english_meaning(file, j_emoticon)
  emoji2 = emojifile2.keys.find { |key| emojifile2[key][:japanese] == e_emoticon}
  if emoji2
    return emojifile2[emoji2]
+ else
+end
 end
