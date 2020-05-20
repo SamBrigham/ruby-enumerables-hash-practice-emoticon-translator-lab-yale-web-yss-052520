@@ -24,6 +24,8 @@ else
 end
 
 def get_english_meaning(file, j_emoticon)
- emojifile = load_library(file)
- emoji2 = emojifile.keys.find { |key| emojifile[key][:english] == e_emoticon}
+ emojifile2 = load_library(file)
+ emoji2 = emojifile2.keys.find { |key| emojifile2[key][:english] == e_emoticon}
+ if emoji2
+   return emoji
 end
